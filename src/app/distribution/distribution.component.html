@@ -1,0 +1,71 @@
+<div class="container">
+    <div class="card col-8">
+        <div class="content-page">
+            <div class="card-header d-flex justify-content-between">
+                <h3 class="card-title">Programming Test C1002</h3>
+                <div class="header-title">
+                </div>
+            </div>
+            <!-- Start content -->
+            <div class="content">
+                <div class="container-fluid">
+
+                    <!-- end row -->
+                    <br>
+                    <div class="container">
+                        <label style="display: flex; margin: 0 auto; width: 285px;">Distribution of the data types in the file</label>
+                        <br>
+                        <table class="table table-stripped bordered responsive">
+                            <thead>
+                                <tr>
+                                    <th>% Numeric</th>
+                                    <th>% Alphanumeric</th>
+                                    <th>% Float</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                        <br>
+                        <table>
+                            <tbody>
+                                <tr *ngFor = 'let dist of distributeObj'>
+                                    <td>{{dist.floatNumber}}</td>
+                                    <td>{{dist.numeric}}</td>
+                                    <td>{{dist.alphanumeric}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                   
+                    <!-- end row -->
+                    <br>
+
+                    <div class="space-div">
+                       
+                        <a routerLink=""
+                        style="display: flex; margin: 0 auto; width: 100px;"
+                        class="button-report">Home</a>
+                    
+                      </div>
+                      
+
+
+                </div> <!-- content -->
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
